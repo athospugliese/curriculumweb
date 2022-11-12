@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- OPEN GRAPH TAGS -->
+    <meta name="description"
+        content="Um projeto super legal desenvolvido durante o evento NLW eSports, realizado pela @Rocketseat. 🚀 Apesar de simples, esse projeto me ajudou muito a aprofundar em HTML e CSS, além de ter ficado muito bonito. 💻" />
+    <meta property="og:title" content="Currículum Web - Athos Pugliese" />
+    <meta property="og:url" content="https://framesgabriel.github.io/nlw-esports/" />
+    <meta property="og:description"
+        content="Um projeto super legal desenvolvido durante o evento NLW eSports, realizado pela @Rocketseat. 🚀 Apesar de simples, esse projeto me ajudou muito a aprofundar em HTML e CSS, além de ter ficado muito bonito. 💻" />
+    <meta property="og:image" content="https://i.imgur.com/SWapmqI.jpeg" />
+    <meta property="og:locale" content="pt_BR" />
+
+    <title>Currículum Web - Athos Pugliese</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parse/3.4.4/parse.min.js"></script>
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="https://github.com/athospugliese.png" alt="Foto do Perfil de Athos Pugliese">
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <h2>MEUS JOGOS</h2>
+                <p>Lista dos meus jogos favoritos</p>
+
+                <ul class="games-list">
+                    <li>
+                        <a href="https://www.twitch.tv/directory/game/League%20of%20Legends" target="blank">
+                            <img src="https://static-cdn.jtvnw.net/ttv-boxart/21779-285x380.jpg"
+                                alt="Imagem do Jogo League of Legends">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitch.tv/directory/game/VALORANT"
+                            target="blank">
+                            <img src="https://static-cdn.jtvnw.net/ttv-boxart/516575-285x380.jpg"
+                                alt="Imagem do Jogo Valorant">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://static-cdn.jtvnw.net/ttv-boxart/33214-285x380.jpg" target="blank">
+                            <img src="https://static-cdn.jtvnw.net/ttv-boxart/33214-285x380.jpg"
+                                alt="Imagem do Jogo Fortnite">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://www.twitch.tv/directory/game/Genshin%20Impact"
+                            target="blank">
+                            <img src="https://static-cdn.jtvnw.net/ttv-boxart/513181-285x380.jpg"
+                                alt="Imagem do Jogo Genshin Impact">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitch.tv/directory/game/Apex%20Legends"
+                            target="blank">
+                            <img src="https://static-cdn.jtvnw.net/ttv-boxart/511224-285x380.jpg"
+                                alt="Imagem do Jogo Apex Legends">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>CANAIS E STREAMERS</h2>
+                <p>Lista com canais e transmissões que acompanho</p>
+
+                <ul class="channel-list">
+                    <li>
+                        <a href="https://www.youtube.com/c/Alura" target="blank">
+                            <img src="https://yt3.ggpht.com/xqhIoXspeX7eqouJvNHl1xqpv9213Pl26ENZbuouXxO2RlDadjsveNXfgnj8GTUk7thFYUkVRg=s176-c-k-c0x00ffffff-no-rj"
+                                alt="Imagem de perfil do canal Alura">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/c/RocketSeat" target="blank">
+                            <img src="https://yt3.ggpht.com/ytc/AMLnZu9-n9mDtKOwVMx3_-2zr8H57lHFag5t-0JcJNFPUQ=s176-c-k-c0x00ffffff-no-rj"
+                                alt="Imagem de perfil do canal Rocketseat">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/c/SaudenaRotina" target="blank">
+                            <img src="https://yt3.ggpht.com/ytc/AMLnZu-1XgUGcFvsXhqWiwYwcMUz9YqscKhbS_xV-hm2BA=s176-c-k-c0x00ffffff-no-rj"
+                                alt="Imagem de perfil do streamer Saude na Rotina">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/c/paulomuzy" target="blank">
+                            <img src="https://yt3.ggpht.com/ytc/AMLnZu_oyoRLag0lapF54bFZK6AP-roAl6b9gQ1TqNb43g=s176-c-k-c0x00ffffff-no-rj"
+                                alt="Imagem de perfil do Paulo Muzy">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/c/TeseOnze" target="blank">
+                            <img src="https://yt3.ggpht.com/ytc/AMLnZu8Y8rV2sqDZKyL1guL31_guFQ5X03SF1MLp6EQQ=s176-c-k-c0x00ffffff-no-rj"
+                                alt="Imagem de perfil do Tese Onze">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/c/renatocariani" target="blank">
+                            <img src="https://yt3.ggpht.com/ytc/AMLnZu_YgyWKfP1bazr82rDIp7s_JKNO5rnz4cYnMk693g=s176-c-k-c0x00ffffff-no-rj"
+                                alt="Imagem de perfil do Paulo Muzy">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <div>
+                <h2>Entre em contato comigo</h2>
+                <p>Deixe uma mensagem para mim:</p>
+
+                    <input placeholder="Deixe uma mensagem" id="inputDescricao" />
+                    <button id="btInserir">Enviar</button>
+                  <hr />
+                  <h2>Últimos recados:</h2>
+                  <span>
+                  <ol id="listarecados"></ol>
+                  <br>
+</span>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
